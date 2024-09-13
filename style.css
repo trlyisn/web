@@ -1,4 +1,50 @@
 body {
     background-color: #838383;
+    color: white;
     font-family: monospace, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    background-color: lightslategray;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: gray;
+    color: blue;
+    text-align: center;
+}
+
+#content {
+    padding: 10px;
+}
+
+#navbar {
+    width: 180px;
+    float: left;
+}
+
+#navbar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar .selected {
+    font-weight: bold;
+}
+
+#main {
+    width: 600px;
+    float: right;
+}
+
+#footer {
+    clear: both;
 }
