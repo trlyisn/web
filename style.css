@@ -9,7 +9,27 @@ a {
     color: white;
 }
 
+ul {
+  
+    list-style-type:none; /* this removes the bulletpoints */
+    /* there is an annoying left padding in the ul element by default */
+    padding-left:0; /* this removes it */
+  }
+  
+  li a {
+    display:inline-block; /* this allows us to add margin to each item 
+                             so there's space for it to rotate */
+    margin:10px;
+  }
+  
+  /* this makes stuff happen when you hover! */
+  li a:hover {
+    transform:rotate(-15deg); /* play with this 15deg value, works w/ negatives too! */
+    /* more CSS transform options: https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+  }
+
 #container {
+    border: palevioletred 7px groove;
     background-color: lightslategray;
     width: 800px;
     margin-left: auto;
@@ -17,7 +37,7 @@ a {
 }
 
 #header {
-    background-color: gray;
+    background-color: hotpink;
     color: blue;
     text-align: center;
 }
@@ -47,4 +67,6 @@ a {
 
 #footer {
     clear: both;
+    background-color: #999999;
+    text-align: right;
 }
