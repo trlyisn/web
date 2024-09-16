@@ -45,6 +45,7 @@ ul {
 
 #content {
     padding: 10px;
+    clear: both;
 }
 
 #navbar {
