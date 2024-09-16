@@ -66,6 +66,16 @@ ul {
     float: right;
 }
 
+#iframes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#iframes iframe {
+    width: 314px; /* Adjust width as needed */
+    height: 321px; /* Set height */
+}
+
 #footer {
     clear: both;
     background-color: #999999;
