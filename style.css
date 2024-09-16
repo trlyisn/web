@@ -67,15 +67,6 @@ ul {
     float: right;
 }
 
-#iframes {
-    justify-content: space-between;
-}
-
-#iframes iframe {
-    width: 314px; /* Adjust width as needed */
-    height: 321px; /* Set height */
-}
-
 #footer {
     clear: both;
     background-color: #999999;
