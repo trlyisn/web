@@ -68,7 +68,6 @@ ul {
 }
 
 #iframes {
-    display: flex;
     justify-content: space-between;
 }
 
