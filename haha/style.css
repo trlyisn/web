@@ -18,3 +18,7 @@ a.special {
 a:hover{
     transform: translateY(-30deg);
 }
+
+p::first-letter{
+    
+}
