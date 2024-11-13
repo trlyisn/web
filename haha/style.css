@@ -9,3 +9,8 @@ p {
 a.special {
     background-color: red;
 }
+
+#jednoznacny {
+    padding: 100px;
+    background-color: chartreuse;
+}
